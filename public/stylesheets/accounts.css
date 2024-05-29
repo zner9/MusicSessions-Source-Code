@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(235, 223, 223);
+}
+
+div {
+    color: black;
+}
+.choose-account {
+    text-align: center;
+    font-family: Inter;
+    letter-spacing: 6px;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.account-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px 200px;
+    column-gap: 100px;
+    margin-top: 50px;
+}
+
+.account-flex {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    cursor: pointer;
+    transition: padding 0.15s;
+}
+
+.account-flex:hover {
+    padding: 20px 20px;
+}
+
+.teacher-logo, .student-logo, .admin-logo {
+    width: 100%;
+    height: 300px;
+    border-radius: 200px;
+    
+}
+
+.teacher-logo {
+    box-shadow: 0 0 40px rgba(106, 72, 0, 0.4);
+}
+
+.student-logo {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+}
+
+.admin-logo {
+    box-shadow: 0 0 40px rgba(41, 43, 105, 0.4);
+}
+
+.teacher-account, .student-account, .admin-account {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 4px;
+}

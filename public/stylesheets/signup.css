@@ -1,0 +1,178 @@
+body {
+    background: white;
+}
+
+.flash_message {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.first_name_error{
+    position: absolute;
+    top: 25px;
+    left: 160px;
+    color: red;
+}
+
+.last_name_error {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    color: red;
+}
+
+.address_error {
+    position: absolute;
+    top: 80px;
+    right: 30px;
+    color: red;
+}
+
+.contact_error {
+    position: absolute;
+    top: 132px;
+    right: 30px;
+    color: red;
+}
+
+.age_error {
+    position: absolute;
+    top: 187px;
+    right: 30px;
+    color: red;
+}
+
+.email_error {
+    position: absolute;
+    top: 240px;
+    right: 30px;
+    color: red;
+}
+
+.password_error {
+    position: absolute;
+    top: 292px;
+    right: 30px;
+    color: red;
+}
+
+.confirm_password_error {
+    position: absolute;
+    top: 347px;
+    right: 30px;
+    color: red;
+}
+
+.sign-up-flex {
+    width: 400px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 550px;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 1);
+
+}
+
+.create-account {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 80px;
+    padding-left: 30px;
+    width: 100%;
+    height: 60px;
+    margin-top: -10px;
+}
+
+.middle-side .name {
+    color: #2B2929;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 80px;
+    margin-top: -26px;
+    margin-left: -50px;
+}
+
+.name-username, .name-password, .name-confirm {
+    color: #2B2929;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 70px;
+    margin-left: 37px;
+    margin-bottom: -20px;
+    margin-top: -22px;
+}
+
+.name-input {
+    border-radius: 13px;
+    border: 2px solid rgb(0, 0, 0);
+    background: #ffffff;
+    align-items: center;
+    flex-shrink: 0;
+    width: 140px;
+    padding: 8px 10px;
+    margin: 20px 10px 0 20px;
+}
+
+.middle-side {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.username-input {
+    padding: 10px;
+    border-radius: 13px;
+    border: 2px solid rgb(0, 0, 0);
+    background: #ffffff;
+    margin: 0 20px;
+    height: 10px;
+    width: 338px;
+    margin: 20px 10px 0 20px;
+}
+
+.sign-up-button {
+    border-radius: 13px;
+    background: #312450;
+    display: flex;
+    padding: 8px 10px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 367px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.mini-box-lower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.mini-box-lower .already,
+.mini-box-lower .sign-in
+{
+    color: #2B2929;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.mini-box-lower .sign-in {
+    color: #312450;
+    text-decoration-line: underline;
+    margin-left: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}

@@ -1,0 +1,12 @@
+.main-container {
+    background: #796b3a;
+    margin-left: 260px;
+    height: 735px;
+}
+
+.edit {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 400px;
+}

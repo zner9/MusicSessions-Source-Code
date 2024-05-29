@@ -1,0 +1,16 @@
+.home {
+    position: fixed;
+    top: 0;
+    left: 250px;
+    bottom: 0;
+    background: white;
+    width: 100%;
+}
+
+.welcome {
+    padding-left: 500px;
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: bold;
+    font-family: 'Times New Roman', Times, serif;
+}

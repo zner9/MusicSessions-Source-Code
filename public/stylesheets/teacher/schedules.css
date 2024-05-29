@@ -1,0 +1,61 @@
+div {
+    color: black;
+}
+
+.schedules-title {
+    letter-spacing: 4px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.day {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+.day-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0 120px;
+    text-align: center;
+}
+
+.student-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 35px;
+    margin: 0 120px;
+    height: 70px;
+}
+
+.student-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(#a002a0, #800080 50%, #510551);
+    border-radius: 4px;
+    width: 130px;
+    padding: 4px 4px;
+    margin-left: 14px;
+}
+
+.student-name, .student-time {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+.student-time {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+}

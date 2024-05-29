@@ -1,0 +1,81 @@
+div {
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    height: 60px;
+    background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.60) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
+    padding: 0 200px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+
+/* LEFT SIDE */
+.header .left-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 370px;
+}
+
+.header .left-side .logo {
+    height: 36px;
+}
+
+/* RIGHT SIDE */
+.header .right-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 380px;
+    width: 240px;
+}
+
+.right-side .home-link, .students-link,
+.schedules-link
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-logo-icon, .profile-logo-icon,
+.students-logo-icon, .schedules-logo-icon,
+.message-logo-icon {
+    width: 32px;
+    height: 27px;
+    border-radius: 30px;
+    background-color: rgb(63, 63, 63);
+    box-shadow: 0 0 20px rgba(224, 50, 224, 0.4);
+}
+
+.students-logo-icon {
+    height: 27px;
+}
+
+.icon-title, .profile-icon-title {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+}
+
+.profile-icon-title {
+    margin-top: 2px;
+}
+
+.home-link, .students-link, .schedules-link,
+.message-link, .profile-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

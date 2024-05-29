@@ -1,0 +1,190 @@
+body {
+    background-color: rgb(235, 223, 223);
+}
+
+div {
+    color: black;
+}
+
+.side-bar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 60px;
+    width: 380px;
+    padding-top: 150px;
+}
+
+.output {
+    margin-top: 20px;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+
+.box {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.profile {
+    width: 80%;
+    height: 210px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    border-radius: 50%;
+}
+
+.bottom {
+    width: 100%;
+}
+
+.side-to-side {
+    display: flex;
+    text-align: left;
+    margin-left: 50px;
+    width: 100%;
+}
+
+.name {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    margin-right: 20px;
+}
+
+.teacher-name {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
+.mini-bar .white {
+    border-width: 1px;
+    border-style: solid;
+    background-color: white;
+    border-color: white;
+    color: white;
+    padding: 1px 2px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.mini-bar .black {
+    border-width: 1px;
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 1px 2px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.mini-bar .purple {
+    border-width: 1px;
+    border-style: solid;
+    background-color: rgb(128, 0, 128);
+    border-color: rgb(128, 0, 128);
+    color: rgb(128, 0, 128);
+    padding: 1px 2px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.mini-bar .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    width: 280px;
+    margin-left: 46px;
+    border-radius: 10px;
+    background: #E032E0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+}
+
+.reserve {
+    text-align: center;
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: -50px;
+    margin-left: 300px;
+    position: fixed;
+    right: 50px;
+    top: 128px;
+    bottom: 34px;
+    width: 50px;
+    text-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 60px;
+    margin-left: 400px;
+    margin-right: 150px;
+    height: 520px;
+}
+
+label{
+    margin-left: 25px;
+}
+
+.timetable {
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 700;
+    border: none;
+    padding: 10px 0;
+    padding-right: 20px;
+    cursor: pointer;
+
+}
+
+.submit-form {
+    position: fixed;
+    bottom: 50px;
+    right: 550px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.bottom-bar {
+    position: fixed;
+    bottom: 12px;
+    right: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proceed {
+    border-radius: 10px;
+    background: #800080;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 7px 23px;
+    color: white;
+    font-family: Inter;
+    font-weight: 700;
+    cursor: pointer;
+}

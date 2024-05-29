@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background: #fdfbee;
+}
+
+.body {
+    margin-left: 260px;
+    height: 736px;
+    margin-top: -19px;
+    background: #e1e0d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.schedule-container {
+    width: 80%;
+    height: 520px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.time-schedule {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.time, .time-monday {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding: 6px 6px;
+    font-weight: bold;
+    border: none;
+}
+
+.time-monday {
+    color: white;
+    cursor: pointer;
+}

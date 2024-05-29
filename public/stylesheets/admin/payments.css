@@ -1,0 +1,74 @@
+div {
+    color: black;
+}
+
+form.example input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 50%;
+    background: #f1f1f1;
+    top: 70px;
+    position: relative;
+    left: 1250px;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    padding: 6px;
+    background: gray;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    position: absolute;
+    top: 110px;
+    left: 1350px;
+  }
+  
+  form.example button:hover {
+    background: #919191;
+  }
+
+  .student-search-box {
+    display: flex;
+  }
+
+.whole-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 80px 100px;
+    text-align: center;
+    border: solid 1px rgb(164, 164, 164);
+    row-gap: 12px;
+    padding: 10px 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+}
+
+.header-grid {
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.confirm {
+    font-family: Inter;
+    cursor: pointer;
+}
+
+.next-page {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: -70px;
+  margin-right: 105px;
+}
+
+.page {
+  padding: 4px 8px;
+  font-family: Inter;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 6px;
+}

@@ -1,0 +1,38 @@
+body {
+    background-color: #FDFBEE;
+}
+
+p {
+    color: black;
+    margin: 0;
+}
+
+.terms {
+    text-align: center;
+    text-align: center;
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 12px;
+}
+
+.whole-box {
+    text-align: left;
+    margin-left: 300px;
+    width: 900px;
+}
+
+.rules {
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.description {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}

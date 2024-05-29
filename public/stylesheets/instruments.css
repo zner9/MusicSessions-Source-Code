@@ -1,0 +1,325 @@
+body {
+    background: #312450;
+}
+
+.grid-instruments {
+    display: grid;
+    grid-template-columns: 280px 280px 280px;
+    column-gap: 150px;
+    row-gap: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+
+.grid-instruments .flex {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.instruments-guitar, .instruments-piano, .instruments-voice, .instruments-drums, .instruments-violin, .instruments-arts {
+    width: 90%;
+    height: 180px;
+    border-radius: 80px;
+    box-shadow: 0 0 0 2px rgba(163, 162, 162, 0.15);
+    transition: box-shadow, width, height 0.15s;
+    margin-bottom: 10px;
+}
+
+.instruments-guitar:hover,
+.instruments-piano:hover,
+.instruments-voice:hover,
+.instruments-drums:hover,
+.instruments-violin:hover,
+.instruments-arts:hover
+ {
+    box-shadow: 0 0 0 4px rgba(58, 58, 58, 0.15);
+    width: 100%;
+    height: 190px;
+}
+
+.enroll-now {
+    position: absolute;
+    left: 90px;
+    top: 130px;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 16px;
+    background-color: #4c308e;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: padding, font-size 0.15s;
+}
+
+.flex .tag-line {
+    display: flex;
+    width: 95%;
+    font-family: Inter;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.tag-line-arts {
+    display: flex;
+    width: 95%;
+    font-family: Inter;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.tag-line-violin, .tag-line-drums {
+    display: flex;
+    width: 95%;
+    font-family: Inter;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: -14px;
+}
+
+.choose {
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 11px;
+    color: white;
+}
+
+.guitar-landing-page, .piano-landing-page,
+.voice-landing-page, .drums-landing-page,
+.violin-landing-page, .arts-landing-page
+{
+    background: linear-gradient(#04172A, #0F3054 50%, #030E19);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    position: relative;
+}
+
+.piano-landing-page {
+    background: linear-gradient(#030E19,#2f0409 50%,#19151d);
+}
+
+.voice-landing-page {
+    background: linear-gradient(#19151d,#40362F 50%,#21201E);
+}
+
+.drums-landing-page {
+    background: linear-gradient(#21201E, #756B0D 50%, #423C07);
+}
+
+.violin-landing-page {
+    background: linear-gradient(#423C07,#c9c7c7 50%, #ABABAB);
+    padding-bottom: 51px;
+}
+
+.arts-landing-page {
+    background: linear-gradient(#ABABAB,#00615D 50%, #013628);
+    padding-bottom: 30px;
+}
+
+.guitar-landing-page .container,
+.piano-landing-page .container,
+.voice-landing-page .container,
+.drums-landing-page .container,
+.violin-landing-page .container,
+.arts-landing-page .container
+{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 65px;
+    margin-left: 140px;
+}
+
+.playing-guitar {
+    width: 70%;
+    height: 100%;
+    margin-right: 140px;
+    box-shadow: -20px 20px 8px rgba(23, 75, 129, 0.15);
+}
+
+.playing-piano {
+    width: 70%;
+    height: 100%;
+    order: 2;
+    margin-left: 140px;
+    box-shadow: 20px 20px 8px rgba(129, 53, 23, 0.15);
+}
+
+.playing-voice {
+    width: 70%;
+    height: 100%;
+    margin-right: 140px;
+    box-shadow: -20px 20px 8px rgba(0, 0, 0, 0.15);
+}
+
+.playing-drums {
+    order: 2;
+    width: 70%;
+    height: 100%;
+    margin-left: 140px;
+    box-shadow: 20px 20px 8px rgba(181, 165, 20, 0.15)
+}
+
+.playing-violin {
+    width: 70%;
+    height: 100%;
+    margin-right: 140px;
+    box-shadow: -20px 20px 8px rgba(44, 44, 44, 0.15);
+}
+
+.playing-arts {
+    order: 2;
+    width: 70%;
+    height: 100%;
+    margin-left: 140px;
+    box-shadow: 20px 20px 8px rgba(6, 105, 112, 0.15);
+}
+
+.mini-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: -120px;
+}
+
+.guitar-title, .piano-title, .voice-title,
+.drums-title, .violin-title, .arts-title {
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(18, 101, 189);
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.enroll-button-guitar,.enroll-button-piano,
+.enroll-button-voice, .enroll-button-drums,
+.enroll-button-violin, .enroll-button-arts
+{
+    position: absolute;
+    bottom: 100px;
+    left: 900px;
+    padding: 14px 80px;
+    border-radius: 20px;
+    background-color: rgb(37, 68, 102);
+    color: white;
+    border: none;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.15);
+    transition: padding, font-size 0.15s;
+    cursor: pointer;
+}
+
+.enroll-button-piano {
+    left: 350px;
+    bottom: 100px;
+    background-color: rgb(173, 65, 10);
+}
+
+.enroll-button-voice {
+    left: 900px;
+    bottom: 100px;
+    background-color: rgb(64, 64, 64);
+}
+
+.enroll-button-drums {
+    left: 350px;
+    bottom: 100px;
+    background-color: rgb(159, 145, 17);
+}
+
+.enroll-button-violin {
+    left: 900px;
+    bottom: 200px;
+    background-color: rgb(81, 80, 79);
+}
+
+.enroll-button-arts {
+    left: 350px;
+    bottom: 200px;
+    background-color: rgb(7, 90, 69);
+}
+
+
+
+.enroll-button-guitar:hover,
+.enroll-button-piano:hover,
+.enroll-button-voice:hover,
+.enroll-button-drums:hover,
+.enroll-button-violin:hover,
+.enroll-button-arts:hover
+ {
+    padding: 16px 82px;
+    font-size: 20px;
+}
+
+.piano-title {
+    color: rgb(173, 65, 10);
+    text-align: right;
+}
+
+.voice-title {
+    color: rgb(255, 255, 255);
+}
+
+.drums-title {
+    color: rgb(159, 145, 17);
+    text-align: right;
+}
+
+.violin-title {
+    color: #030E19;
+}
+
+.arts-title {
+    color: rgb(115, 235, 205);
+    text-align: right;
+}
+
+.instrument-description,
+.instrument-description-violin,
+.instrument-description-arts,
+.instrument-description-drums,
+.instrument-description-piano
+{
+    text-align: left;
+    font-size: 20px;
+    font-family: Inter;
+    color: white;
+    line-height: 30px;
+    width: 500px;
+}
+
+.instrument-description-violin {
+    color: black;
+}
+
+.instrument-description-arts {
+    text-align: right;
+}
+
+.instrument-description-drums {
+    text-align: right;
+}
+
+.instrument-description-piano {
+    text-align: right;
+}

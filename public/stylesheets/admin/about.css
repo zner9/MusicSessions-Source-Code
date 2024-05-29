@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(235, 223, 223);
+}
+
+div {
+    color: black;
+}
+
+.title {
+    text-align: center;
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 12px;
+}
+.box {
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+.app-name {
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 400;
+    letter-spacing: 8.4px;
+}
+
+.message {
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 400;
+    width: 1026px;
+}

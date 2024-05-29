@@ -1,0 +1,86 @@
+div {
+    color: black;
+}
+
+.choose-instruments {
+    margin-top: 62px;
+    width: 10%;
+    height: 10%;
+    padding: 6px 10px;
+    margin-left: 6px;
+}
+
+form.example input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 50%;
+    background: #f1f1f1;
+    margin-top: 70px;
+    position: relative;
+    left: 800px;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    padding: 6px;
+    background: gray;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin-top: 70px;
+    position: absolute;
+    left: 1350px;
+  }
+  
+  form.example button:hover {
+    background: #919191;
+  }
+
+  .student-search-box {
+    display: flex;
+  }
+
+.students-title {
+    letter-spacing: 4px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.students-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0 80px;
+    row-gap: 10px;
+    text-align: center;
+    border: solid 1px gray;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    padding: 10px 10px;
+}
+
+.header-grid {
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.next-page {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 6px 100px;
+}
+
+.page {
+    padding: 4px 8px;
+    font-family: Inter;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 6px;
+}

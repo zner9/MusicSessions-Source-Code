@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(235, 223, 223);
+}
+
+div {
+    color: black;
+}
+
+.information-box {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    bottom: 100px;
+    top: 100px;
+    margin-left: 120px;
+}

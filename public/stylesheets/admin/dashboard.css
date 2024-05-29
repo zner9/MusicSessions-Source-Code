@@ -1,0 +1,162 @@
+div {
+    color: black;
+}
+
+/* Statistics */
+
+.statistics-box {
+    display: grid;
+    flex-direction: column;
+    padding-left: 40px;
+    height:600px;
+    position: relative;
+    margin: 20px 90px;
+}
+
+.statistics-title {
+    letter-spacing: 4px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 50px;
+    height: 50px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.statistics-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    margin-bottom: 400px;
+}
+
+.statistics-grid .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box .percent {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.color-1, .color-2, .color-3, .color-4,
+.color-5, .color-6, .color-7 {
+    margin: 10px 0;
+    background-color: #df26df;
+    color: #df26df;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 200px;
+}
+
+.color-1 {
+    color: #800080;
+    border: 1px solid #000;
+    background: #800080;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.color-2 {
+    background: #9C099C;
+    color: #9C099C;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 80px;
+    padding-bottom: 120px;
+}
+
+.color-3 {
+    background: #B30CB3;
+    color: #B30CB3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 90px;
+    padding-bottom: 110px;
+}
+
+.color-4 {
+    background: #BC0EBC;
+    color: #BC0EBC;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 110px;
+    padding-bottom: 90px;
+}
+
+.color-5 {
+    background: #D70FD7;
+    color: #D70FD7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 130px;
+    padding-bottom: 70px;
+}
+
+.color-6 {
+    background: #F209F2;
+    color: #F209F2;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 155px;
+    padding-bottom: 45px;
+}
+
+.color-7 {
+    background: #e155e1;
+    color: #e155e1;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 128px;
+    padding-bottom: 72px;
+}
+
+.box .day {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* Statistic Records */
+
+.record-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 60px;
+    padding: 10px 10px;
+    background-color: white;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.guitar {
+    width: 40%;
+    height: 50%;
+}
+
+.record-number, .record-students {
+    color: #800080;
+    text-align: center;
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 700;
+    margin-left: 12px;
+}
+
+.record-students {
+    font-size: 10px;
+    font-weight: 300;
+    color: black;
+}

@@ -1,0 +1,128 @@
+body {
+    background-color: rgb(235, 223, 223);
+}
+
+.teachers-h1 {
+    text-align: center;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 30px;
+    color: #293340;
+    font-weight: 900;
+    line-height: 110%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.teachers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 120px;
+    column-gap: 30px;
+    margin-top: 20px;
+}
+
+.teachers-grid .flex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.teacher-picture {
+    width: 60%;
+    height: 250px;
+    border-radius: 125px;
+}
+
+.teacher-name, .teacher-name-renz {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 6px;
+    margin-top: 12px;
+}
+
+.teacher-name-renz {
+    margin-top: 0;
+}
+
+.teacher-experience, .ratings {
+    width: 300px;
+    font-family: Inter;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.see-schedule {
+    border: none;
+    padding: 6px 12px;
+    border-radius: 10px;
+    background: #800080;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.teachers-testimonials {
+    background-color: rgb(255, 255, 255);
+    padding: 6px 100px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.testimonials-proof {
+    text-align: center;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 30px;
+    color: #293340;
+    font-weight: 900;
+    line-height: 110%;
+    margin-top: 110px;
+    margin-bottom: 30px;
+}
+
+.teachers-testimonials-proof {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 26px;
+    row-gap: 50px;
+    margin: 0 120px;
+    background: linear-gradient(180deg, #206399 0%, #195483 100%);
+    margin-bottom: 50px;
+    box-shadow: -20px 20px 10px rgba(1, 115, 203, 0.15);
+}
+
+.teachers-testimonials-proof .flex {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #195483;
+    justify-content: center;
+
+}
+
+.students-name {
+    color: white;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 6px;
+    margin-top: 12px;
+}
+
+.testimonials-description {
+    width: 300px;
+    font-family: Inter;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: white;
+    width: 180px;
+    text-align: center;
+}
